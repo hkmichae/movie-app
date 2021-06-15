@@ -15,7 +15,7 @@ async function getMovies(url) {
     console.log(data.results)
 }
 
-form.addEventListener('sumbit', (e) => {
+form.addEventListener('submit', (e) => {
     e.preventDefault()
 
     const searchTerm = search.value
